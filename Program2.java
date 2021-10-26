@@ -25,16 +25,18 @@ public class Program2 {
           sum = sum*10+r;   
           n = n/10; 
       }
-
+      
+      System.out.println("Our original number is : "+x);
+      System.out.println("Our Reverse number is : "+sum);
       
       
       /* logic 2  :  using StringBuilder class
         
        ---> this is inBuild class in java and there is predefined function reverse();
     
-      StringBuilder sb = new StringBuilder();
-      sb.append(n);
-      StringBuilder rev = sb.reverse();
+       StringBuilder sb = new StringBuilder();
+       sb.append(n);
+       StringBuilder rev = sb.reverse();
       
       System.out.println("Our original number is : "+x);
       System.out.println("Our Reverse number is : "+rev);
@@ -42,6 +44,7 @@ public class Program2 {
       */
       
       /*
+
       logic 3 : using StringBuffer class
       
       ---> this is inBuild class in java and there is predefined function reverse();
@@ -50,7 +53,9 @@ public class Program2 {
       sb.append(n);
       StringBuffer rev = sb.reverse();
 
-      //   StringBuffer sb = new StringBuffer(String.valueOf(n));
+      // 2nd method : 
+      
+      //  StringBuffer sb = new StringBuffer(String.valueOf(n));
       //  StringBuffer rev = sb.reverse();
 
       System.out.println("Our original number is : "+x);
@@ -59,7 +64,5 @@ public class Program2 {
       */
       
       
-      System.out.println("Our original number is : "+x);
-      System.out.println("Our Reverse number is : "+sum);
     }
 }
