@@ -15,7 +15,7 @@ public class Program2 {
       System.out.println("Enter the number");
       int n = sc.nextInt();
       int r,sum=0;
-      
+      int x = n;
       // logic to reverse the number
       while(n>0)
       {
@@ -23,7 +23,7 @@ public class Program2 {
           sum = sum*10+r;   
           n = n/10; 
       }
-
-
+      System.out.println("Our original number is : "+x);
+      System.out.println("Our Reverse number is : "+sum);
     }
 }
