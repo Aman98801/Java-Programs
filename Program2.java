@@ -17,7 +17,7 @@ public class Program2 {
       int r,sum=0;
       int x = n;
       // logic to reverse the number
-      /*
+      
 
       while(n>0)
       {
@@ -26,20 +26,40 @@ public class Program2 {
           n = n/10; 
       }
 
-      */
       
-      /* logic 2  : 
-                    using StringBuilder class
-                    this is inBuild class in java and there is predefined function reverse();
-      */
+      
+      /* logic 2  :  using StringBuilder class
+        
+       ---> this is inBuild class in java and there is predefined function reverse();
+    
       StringBuilder sb = new StringBuilder();
       sb.append(n);
       StringBuilder rev = sb.reverse();
       
       System.out.println("Our original number is : "+x);
       System.out.println("Our Reverse number is : "+rev);
+      
+      */
+      
+      /*
+      logic 3 : using StringBuffer class
+      
+      ---> this is inBuild class in java and there is predefined function reverse();
+      
+      StringBuffer sb = new StringBuffer();
+      sb.append(n);
+      StringBuffer rev = sb.reverse();
 
-    //   System.out.println("Our original number is : "+x);
-    //   System.out.println("Our Reverse number is : "+sum);
+      //   StringBuffer sb = new StringBuffer(String.valueOf(n));
+      //  StringBuffer rev = sb.reverse();
+
+      System.out.println("Our original number is : "+x);
+      System.out.println("Our Reverse number is : "+rev);
+
+      */
+      
+      
+      System.out.println("Our original number is : "+x);
+      System.out.println("Our Reverse number is : "+sum);
     }
 }
