@@ -1,5 +1,5 @@
 /*
-Program 2 :  Reveres the given String ;
+Program 3 :  Reveres the given String ;
 --> we are simply reverse the given String
 ---> input
 Aman
