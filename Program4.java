@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /*
-Program 2 :  check the number palindrome or not ;
+Program 4 :  check the number palindrome or not ;
 
 --> concept is A palindrome number is a number that remains the same when its digits are reversed
 
