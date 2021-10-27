@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -33,7 +32,7 @@ public class Program5 {
          StringBuilder rev = sb.reverse();
 
          System.out.println(" reverse string is : "+rev);
-         
+
          String temp1 = rev.toString(); 
 
         //  System.out.println(temp);
