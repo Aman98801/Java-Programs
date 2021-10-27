@@ -14,16 +14,14 @@ public class Program6 {
      
      System.out.println(" Enter the number");
      int n = sc.nextInt();
-     int count=0,r;
-     if(n>0)
+     int count=0;
+     if(n>0 || n<0)
      {
 
-         while(n>0)
+         while(n>0 || n<0)  // if we want to count nagative no digits.
          {
-           r = n%10;
            n = n/10;
            count++;
-           System.out.print(count+" ");
          }
          System.out.println("total digits are : "+count);
      }
