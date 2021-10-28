@@ -17,6 +17,8 @@ public class Program9 {
         System.out.println();
         System.out.println("Fabonacci Series is : ");
         // logic for fabonacci series
+            
+            // f1 = 1 , f2 = -1  so first f = 0
         while(f<n)
         {
           f = f1+f2;  // 0  1  1  2  3  5  8  13 . . . . .
