@@ -51,7 +51,7 @@ public class Program7 {
         //  logic for sum of digits 
 
         int sum = 0,r1;
-        System.out.println(x);
+        // System.out.println(x);
         while(x>0)
         {
           r1 = x%10;
