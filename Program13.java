@@ -16,7 +16,7 @@ public class Program13 {
         int n = sc.nextInt();
 
         //  int a[] = {11,2,3,4,51}; 
-     
+        // int a[] = {34,56,7,8,89,9,9};
         int a[] = new int[n];
         
         System.out.println("Enter the Array Element");
@@ -29,6 +29,6 @@ public class Program13 {
             else
             System.out.println(" Odd Element is : "+a[i]);
 
-        }
+        } 
     }
 }
