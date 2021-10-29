@@ -14,13 +14,15 @@ import java.util.Scanner;
 public class Program14 {
     public static void main(String[] args) {
     
-        int arr1[] = {1,2,3,4,5};
-        int arr2[] = {1,2,3,4,5};
-      /*  
+        // int arr1[] = {1,2,3,4,5};
+        // int arr2[] = {1,2,3,4,5};
+        
         int arr1[] = {1,2,3,4,5};
         int arr2[] = {1,2,3,4,6};
-      */
-        // we have inbuild method in java 
+      
+        /*
+          Logic 1 :  we have inbuild method in java 
+
         boolean isEqual = Arrays.equals(arr1,arr2);
         
         if(isEqual==true){
@@ -28,6 +30,29 @@ public class Program14 {
         }
         else{
             System.out.println("Both Array are not Equal");
+        }
+        */
+
+        // logic 2 : we will iterate each element of both Array and compare.
+        boolean b = true;
+        
+        if(arr1.length == arr2.length)
+        {
+            for(int i=0;i<arr1.length;i++)
+            {
+                if(arr1[i]!=arr2[i])
+                {
+                   b = false;
+                }
+            }
+            if(b==true)
+            System.out.println("Both array are same");
+            else
+            System.out.println("Array are not same");
+        }
+        else
+        {
+            System.out.println("Array are not same");
         }
     }
 
