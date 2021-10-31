@@ -10,17 +10,21 @@
 
 public class Program17 {
     public static void main(String[] args) {
-        int arr[] = {2,3,2,4,4,6,7,9,7};
 
-        // logic 
+        int arr[] = { 2, 3, 2, 4, 4, 6, 7, 9, 7 };
+
+        // String arr[] = {"java","python","java","C++","C","C++"};
+
+        // logic
+
         for (int i = 0; i < arr.length; i++) {
-            for (int j =i+1; j < arr.length; j++) {
-            if(arr[i] == arr[j])
-            {
-              System.out.println("dublicate Value is : "+arr[i]);
-            }
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] == arr[j]) {
+                    System.out.println("dublicate Value is : " + arr[i]);
+                }
 
+            }
         }
     }
-  }
 }
+
